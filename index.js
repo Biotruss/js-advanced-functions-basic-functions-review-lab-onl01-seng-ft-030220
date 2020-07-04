@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 const saturdayFun = function(activity = 'roller-skate') {
   return `This Saturday, I want to ${activity}!` 
 }
@@ -35,4 +36,8 @@ const actionApplyer = function(integer, actions) {
   return actions.reduce((total, currentAction) => {
     return currentAction(total)
   }, integer)
+=======
+const saturdayFun = function() => {
+  
+>>>>>>> 052d00dbaa1ab745b6e959feea4a7de8ebfa44d2
 }
